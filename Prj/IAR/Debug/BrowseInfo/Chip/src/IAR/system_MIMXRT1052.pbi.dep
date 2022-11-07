@@ -1,0 +1,8 @@
+E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\BrowseInfo\Chip\src\IAR\system_MIMXRT1052.pbi: \
+  E:\Code\MCU\RT1052NewProject\Chip\src\IAR\system_MIMXRT1052.c \
+  D:\IAR\arm\inc\c\stdint.h D:\IAR\arm\inc\c\ycheck.h \
+  D:\IAR\arm\inc\c\yvals.h D:\IAR\arm\inc\c\DLib_Defaults.h \
+  D:\IAR\arm\inc\c\DLib_Config_Full.h D:\IAR\arm\inc\c\DLib_Product.h \
+  E:\Code\MCU\RT1052NewProject\Chip\inc\RT1052\MIMXRT1052.h \
+  E:\Code\MCU\RT1052NewProject\CMSIS\core_cm7.h \
+  E:\Code\MCU\RT1052NewProject\Chip\inc\IAR\system_MIMXRT1052.h

@@ -1,0 +1,7 @@
+# ninja log v5
+0	47	6894337701709831	E:/Code/MCU/RT1052NewProject/Prj/IAR/Debug/Obj/Chip/src/IAR/startup_MIMXRT1052.o	5a8362ddd4932837
+1	102	6894341530724677	E:/Code/MCU/RT1052NewProject/Prj/IAR/Debug/Obj/Chip/src/IAR/startup_MIMXRT1052.o	4a6c507be9c685f7
+0	282	6894345093013990	E:/Code/MCU/RT1052NewProject/Prj/IAR/Debug/Obj/Chip/src/IAR/system_MIMXRT1052.o	33a1b88ac51a0f39
+1	76	6894345268712819	E:/Code/MCU/RT1052NewProject/Prj/IAR/Debug/Obj/App/src/main.o	a0bc9e2d73d899b7
+1	85	6894345585401979	E:/Code/MCU/RT1052NewProject/Prj/IAR/Debug/Obj/App/src/main.o	a0bc9e2d73d899b7
+90	175	6894345586314919	E:/Code/MCU/RT1052NewProject/Prj/IAR/Debug/Exe/NewProject.out	53576a24acfcdd4b

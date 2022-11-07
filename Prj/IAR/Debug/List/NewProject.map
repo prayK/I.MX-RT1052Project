@@ -1,0 +1,519 @@
+###############################################################################
+#
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  06/Nov/2022  18:42:38
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Exe\NewProject.out
+#    Map file     =
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\List\NewProject.map
+#    Command line =
+#        -f E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Exe\NewProject.out.rsp
+#        (E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\App\src\main.o
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\Chip\src\IAR\startup_MIMXRT1052.o
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\Chip\src\IAR\system_MIMXRT1052.o
+#        --no_out_extension -o
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Exe\NewProject.out --map
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\List\NewProject.map
+#        --config
+#        E:\Code\MCU\RT1052NewProject\Prj\IAR\ConfigFiles\MIMXRT1052xxxxx_ram.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale
+#        --cpu=Cortex-M7 --fpu=VFPv5_d16)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__CPP_Runtime   = 1
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3ff] |
+                [from 0x400 to 0x1'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+"P6":  place in [from 0x2001'fc00 to 0x2001'ffff] { block CSTACK };
+
+No sections matched the following patterns:
+
+  rw                         in block RW
+  section NonCacheable       in block NCACHE_VAR
+  section NonCacheable.init  in block NCACHE_VAR
+  zi                         in block ZI
+
+
+  Section   Kind         Address   Size  Object
+  -------   ----         -------   ----  ------
+"A0":                             0x400
+  .intvec   ro code          0x0  0x400  startup_MIMXRT1052.o [2]
+                         - 0x400  0x400
+
+"P1":                             0x386
+  .text     ro code        0x400  0x148  system_MIMXRT1052.o [2]
+  .text     ro code        0x548    0x2  system_MIMXRT1052.o [2]
+  .text     ro code        0x54a    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x54c   0x28  startup_MIMXRT1052.o [2]
+  .text     ro code        0x574   0x22  fpinit_M.o [4]
+  .text     ro code        0x596    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x598   0x1e  cmain.o [5]
+  .text     ro code        0x5b6    0x4  low_level_init.o [3]
+  .text     ro code        0x5ba    0x4  main.o [1]
+  .text     ro code        0x5be    0x4  exit.o [3]
+  .text     ro code        0x5c2    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x5c4    0xa  cexit.o [5]
+  .text     ro code        0x5ce    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x5d0   0x14  exit.o [6]
+  .text     ro code        0x5e4   0x1c  cstartup_M.o [5]
+  .text     ro code        0x600    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x608    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x610    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x618    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x620    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x628    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x630    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x638    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x640    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x648    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x650    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x658    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x660    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x668    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x670    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x678    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x680    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x688    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x690    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x698    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6a0    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6a8    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6b0    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6b8    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6c0    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6c8    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6d0    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6d8    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6e0    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6e8    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6f0    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x6f8    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x700    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x708    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x710    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x718    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x720    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x728    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x730    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x738    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x740    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x748    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x750    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x758    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x760    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x768    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x770    0x8  startup_MIMXRT1052.o [2]
+  .text     ro code        0x778    0x4  startup_MIMXRT1052.o [2]
+  .text     ro code        0x77c    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x77e    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x780    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x782    0x2  startup_MIMXRT1052.o [2]
+  .text     ro code        0x784    0x2  startup_MIMXRT1052.o [2]
+                         - 0x786  0x386
+
+"P6":                             0x400
+  CSTACK             0x2001'fc00  0x400  <Block>
+    CSTACK  uninit   0x2001'fc00  0x400  <Block tail>
+                   - 0x2002'0000  0x400
+
+Unused ranges:
+
+   From        To      Size
+   ----        --      ----
+  0x786  0x1'ffff  0x1'f87a
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                ro code  rw data
+    ------                -------  -------
+command line/config:
+    --------------------------------------
+    Total:
+
+E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\App\src: [1]
+    main.o                      4
+    --------------------------------------
+    Total:                      4
+
+E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\Chip\src\IAR: [2]
+    startup_MIMXRT1052.o    1'462
+    system_MIMXRT1052.o       330
+    --------------------------------------
+    Total:                  1'792
+
+dl7M_tln.a: [3]
+    exit.o                      4
+    low_level_init.o            4
+    --------------------------------------
+    Total:                      8
+
+m7M_tlv.a: [4]
+    fpinit_M.o                 34
+    --------------------------------------
+    Total:                     34
+
+rt7M_tl.a: [5]
+    cexit.o                    10
+    cmain.o                    30
+    cstartup_M.o               28
+    --------------------------------------
+    Total:                     68
+
+shb_l.a: [6]
+    exit.o                     20
+    --------------------------------------
+    Total:                     20
+
+    Linker created                   1'024
+------------------------------------------
+    Grand Total:            1'926    1'024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+?main                         0x599        Code  Gb  cmain.o [5]
+ACMP1_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ACMP2_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ACMP3_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ACMP4_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ADC1_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ADC2_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ADC_ETC_ERROR_IRQ_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ADC_ETC_IRQ0_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ADC_ETC_IRQ1_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ADC_ETC_IRQ2_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+BEE_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+BusFault_Handler              0x5cf        Code  Wk  startup_MIMXRT1052.o [2]
+CAN1_DriverIRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CAN1_IRQHandler               0x709        Code  Wk  startup_MIMXRT1052.o [2]
+CAN2_DriverIRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CAN2_IRQHandler               0x711        Code  Wk  startup_MIMXRT1052.o [2]
+CCM_1_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CCM_2_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CORE_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CSI_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CSTACK$$Base            0x2001'fc00         --   Gb  - Linker created -
+CSTACK$$Limit           0x2002'0000         --   Gb  - Linker created -
+CSU_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CTI0_ERROR_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+CTI1_ERROR_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DCDC_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DCP_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DCP_VMI_IRQHandler            0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA0_DMA16_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA0_DMA16_IRQHandler         0x601        Code  Wk  startup_MIMXRT1052.o [2]
+DMA10_DMA26_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA10_DMA26_IRQHandler        0x651        Code  Wk  startup_MIMXRT1052.o [2]
+DMA11_DMA27_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA11_DMA27_IRQHandler        0x659        Code  Wk  startup_MIMXRT1052.o [2]
+DMA12_DMA28_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA12_DMA28_IRQHandler        0x661        Code  Wk  startup_MIMXRT1052.o [2]
+DMA13_DMA29_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA13_DMA29_IRQHandler        0x669        Code  Wk  startup_MIMXRT1052.o [2]
+DMA14_DMA30_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA14_DMA30_IRQHandler        0x671        Code  Wk  startup_MIMXRT1052.o [2]
+DMA15_DMA31_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA15_DMA31_IRQHandler        0x679        Code  Wk  startup_MIMXRT1052.o [2]
+DMA1_DMA17_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA1_DMA17_IRQHandler         0x609        Code  Wk  startup_MIMXRT1052.o [2]
+DMA2_DMA18_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA2_DMA18_IRQHandler         0x611        Code  Wk  startup_MIMXRT1052.o [2]
+DMA3_DMA19_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA3_DMA19_IRQHandler         0x619        Code  Wk  startup_MIMXRT1052.o [2]
+DMA4_DMA20_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA4_DMA20_IRQHandler         0x621        Code  Wk  startup_MIMXRT1052.o [2]
+DMA5_DMA21_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA5_DMA21_IRQHandler         0x629        Code  Wk  startup_MIMXRT1052.o [2]
+DMA6_DMA22_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA6_DMA22_IRQHandler         0x631        Code  Wk  startup_MIMXRT1052.o [2]
+DMA7_DMA23_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA7_DMA23_IRQHandler         0x639        Code  Wk  startup_MIMXRT1052.o [2]
+DMA8_DMA24_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA8_DMA24_IRQHandler         0x641        Code  Wk  startup_MIMXRT1052.o [2]
+DMA9_DMA25_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA9_DMA25_IRQHandler         0x649        Code  Wk  startup_MIMXRT1052.o [2]
+DMA_ERROR_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+DMA_ERROR_IRQHandler          0x681        Code  Wk  startup_MIMXRT1052.o [2]
+DebugMon_Handler              0x781        Code  Wk  startup_MIMXRT1052.o [2]
+DefaultISR                    0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENC1_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENC2_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENC3_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENC4_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENET_1588_Timer_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENET_1588_Timer_IRQHandler
+                              0x771        Code  Wk  startup_MIMXRT1052.o [2]
+ENET_DriverIRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+ENET_IRQHandler               0x769        Code  Wk  startup_MIMXRT1052.o [2]
+EWM_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXIO1_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXIO1_IRQHandler            0x741        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXIO2_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXIO2_IRQHandler            0x749        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXRAM_IRQHandler            0x779        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXSPI_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+FLEXSPI_IRQHandler            0x751        Code  Wk  startup_MIMXRT1052.o [2]
+GPC_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_Combined_0_15_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_Combined_16_31_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT0_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT1_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT2_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT3_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT4_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT5_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT6_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO1_INT7_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO2_Combined_0_15_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO2_Combined_16_31_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO3_Combined_0_15_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO3_Combined_16_31_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO4_Combined_0_15_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO4_Combined_16_31_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO5_Combined_0_15_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPIO5_Combined_16_31_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPR_IRQ_IRQHandler            0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPT1_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+GPT2_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+HardFault_Handler             0x597        Code  Wk  startup_MIMXRT1052.o [2]
+KPP_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LCDIF_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C1_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C1_IRQHandler             0x6c9        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C2_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C2_IRQHandler             0x6d1        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C3_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C3_IRQHandler             0x6d9        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C4_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPI2C4_IRQHandler             0x6e1        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI1_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI1_IRQHandler             0x6e9        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI2_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI2_IRQHandler             0x6f1        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI3_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI3_IRQHandler             0x6f9        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI4_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPSPI4_IRQHandler             0x701        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART1_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART1_IRQHandler            0x689        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART2_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART2_IRQHandler            0x691        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART3_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART3_IRQHandler            0x699        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART4_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART4_IRQHandler            0x6a1        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART5_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART5_IRQHandler            0x6a9        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART6_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART6_IRQHandler            0x6b1        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART7_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART7_IRQHandler            0x6b9        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART8_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+LPUART8_IRQHandler            0x6c1        Code  Wk  startup_MIMXRT1052.o [2]
+MemManage_Handler             0x5c3        Code  Wk  startup_MIMXRT1052.o [2]
+NMI_Handler                   0x54b        Code  Wk  startup_MIMXRT1052.o [2]
+PIT_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PMU_EVENT_IRQHandler          0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM1_0_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM1_1_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM1_2_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM1_3_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM1_FAULT_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM2_0_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM2_1_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM2_2_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM2_3_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM2_FAULT_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM3_0_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM3_1_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM3_2_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM3_3_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM3_FAULT_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM4_0_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM4_1_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM4_2_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM4_3_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PWM4_FAULT_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PXP_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+PendSV_Handler                0x783        Code  Wk  startup_MIMXRT1052.o [2]
+RTWDOG_IRQHandler             0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Region$$Table$$Base             0x0         --   Gb  - Linker created -
+Region$$Table$$Limit            0x0         --   Gb  - Linker created -
+Reserved115_IRQHandler        0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved123_IRQHandler        0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved143_IRQHandler        0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved144_IRQHandler        0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved68_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved78_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved86_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reserved87_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+Reset_Handler                 0x54d        Code  Wk  startup_MIMXRT1052.o [2]
+SAI1_DriverIRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SAI1_IRQHandler               0x719        Code  Wk  startup_MIMXRT1052.o [2]
+SAI2_DriverIRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SAI2_IRQHandler               0x721        Code  Wk  startup_MIMXRT1052.o [2]
+SAI3_RX_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SAI3_RX_IRQHandler            0x729        Code  Wk  startup_MIMXRT1052.o [2]
+SAI3_TX_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SAI3_TX_IRQHandler            0x731        Code  Wk  startup_MIMXRT1052.o [2]
+SCB_EnableDCache              0x42b  0x52  Code  Lc  system_MIMXRT1052.o [2]
+SCB_EnableICache              0x401  0x2a  Code  Lc  system_MIMXRT1052.o [2]
+SEMC_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SJC_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SNVS_HP_WRAPPER_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SNVS_HP_WRAPPER_TZ_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SNVS_LP_WRAPPER_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SPDIF_DriverIRQHandler        0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SPDIF_IRQHandler              0x739        Code  Wk  startup_MIMXRT1052.o [2]
+SRC_IRQHandler                0x779        Code  Wk  startup_MIMXRT1052.o [2]
+SVC_Handler                   0x77f        Code  Wk  startup_MIMXRT1052.o [2]
+SysTick_Handler               0x785        Code  Wk  startup_MIMXRT1052.o [2]
+SystemInit                    0x47d  0x90  Code  Gb  system_MIMXRT1052.o [2]
+SystemInitHook                0x549   0x2  Code  Wk  system_MIMXRT1052.o [2]
+TEMP_LOW_HIGH_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TEMP_PANIC_IRQHandler         0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TMR1_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TMR2_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TMR3_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TMR4_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TRNG_IRQHandler               0x779        Code  Wk  startup_MIMXRT1052.o [2]
+TSC_DIG_IRQHandler            0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USB_OTG1_IRQHandler           0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USB_OTG2_IRQHandler           0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USB_PHY1_IRQHandler           0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USB_PHY2_IRQHandler           0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USDHC1_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USDHC1_IRQHandler             0x759        Code  Wk  startup_MIMXRT1052.o [2]
+USDHC2_DriverIRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+USDHC2_IRQHandler             0x761        Code  Wk  startup_MIMXRT1052.o [2]
+UsageFault_Handler            0x77d        Code  Wk  startup_MIMXRT1052.o [2]
+WDOG1_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+WDOG2_IRQHandler              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+XBAR1_IRQ_0_1_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+XBAR1_IRQ_2_3_IRQHandler
+                              0x779        Code  Wk  startup_MIMXRT1052.o [2]
+__RAM_VECTOR_TABLE_SIZE {Abs}
+                                0x0        Data  Gb  <internal module>
+__VECTOR_RAM {Abs}              0x0        Data  Gb  <internal module>
+__VECTOR_TABLE {Abs}            0x0        Data  Gb  <internal module>
+__Vectors                       0x0         --   Gb  startup_MIMXRT1052.o [2]
+__Vectors_End                 0x400        Data  Gb  startup_MIMXRT1052.o [2]
+__Vectors_Size {Abs}          0x400         --   Gb  startup_MIMXRT1052.o [2]
+__cmain                       0x599        Code  Gb  cmain.o [5]
+__exit                        0x5d1  0x14  Code  Gb  exit.o [6]
+__iar_init_vfp                0x575        Code  Gb  fpinit_M.o [4]
+__iar_program_start           0x5e5        Code  Gb  cstartup_M.o [5]
+__low_level_init              0x5b7   0x4  Code  Gb  low_level_init.o [3]
+__vector_table                  0x0        Data  Gb  startup_MIMXRT1052.o [2]
+__vector_table_0x1c            0x1c        Data  Gb  startup_MIMXRT1052.o [2]
+_call_main                    0x5a5        Code  Gb  cmain.o [5]
+_exit                         0x5c5        Code  Gb  cexit.o [5]
+exit                          0x5bf   0x4  Code  Gb  exit.o [3]
+main                          0x5bb   0x4  Code  Gb  main.o [1]
+
+
+[1] = E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\App\src
+[2] = E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Obj\Chip\src\IAR
+[3] = dl7M_tln.a
+[4] = m7M_tlv.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  1'926 bytes of readonly  code memory
+  1'024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

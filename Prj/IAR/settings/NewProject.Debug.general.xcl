@@ -1,0 +1,15 @@
+"D:\IAR\arm\bin\armPROC.dll" 
+
+"D:\IAR\arm\bin\armJLINK.dll" 
+
+"E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\Exe\NewProject.out" 
+
+--plugin="D:\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\IAR\arm/config/debugger/NXP/iMXRT.dmac" 
+
+--device_macro="D:\IAR\arm/config/debugger/NXP/iMXRT_Trace.dmac" 
+
+
+
+
