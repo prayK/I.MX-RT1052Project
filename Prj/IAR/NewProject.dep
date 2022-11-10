@@ -1,38 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>5</fileVersion>
-    <fileChecksum>3713669213</fileChecksum>
+    <fileChecksum>1519074073</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\App\src\main.o</file>
-            <file>$PROJ_DIR$\..\..\Chip\src\IAR\system_MIMXRT1052.c</file>
-            <file>$PROJ_DIR$\..\..\Chip\inc\RT1052\MIMXRT1052.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS\mpu_armv7.h</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
-            <file>$PROJ_DIR$\ConfigFiles\MIMXRT1052xxxxx_ram.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\Chip\src\IAR\system_MIMXRT1052.o</file>
-            <file>$PROJ_DIR$\..\..\CMSIS\cmsis_iccarm.h</file>
-            <file>$PROJ_DIR$\Debug\List\NewProject.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\NewProject.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\Chip\src\IAR\startup_MIMXRT1052.o</file>
             <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\..\..\CMSIS\core_cm7.h</file>
+            <file>$PROJ_DIR$\Debug\List\NewProject.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\IAR\system_MIMXRT1052.c</file>
             <file>$PROJ_DIR$\..\..\CMSIS\cmsis_compiler.h</file>
-            <file>$PROJ_DIR$\..\..\Chip\src\IAR\startup_MIMXRT1052.s</file>
-            <file>$PROJ_DIR$\..\..\Chip\inc\IAR\system_MIMXRT1052.h</file>
-            <file>$PROJ_DIR$\..\..\Chip\inc\RT1052\fsl_device_registers.h</file>
-            <file>$PROJ_DIR$\..\..\App\src\main.c</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\core_cm7.h</file>
             <file>$PROJ_DIR$\..\..\CMSIS\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\IAR\system_MIMXRT1052.h</file>
+            <file>$PROJ_DIR$\ConfigFiles\MIMXRT1052xxxxx_ram.icf</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Chip\src\IAR\system_MIMXRT1052.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tlv.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\..\Chip\src\IAR\startup_MIMXRT1052.s</file>
+            <file>$PROJ_DIR$\..\..\App\src\main.c</file>
+            <file>$PROJ_DIR$\..\..\Chip\inc\RT1052\MIMXRT1052.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\NewProject.out</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\App\src\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\CMSIS\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\Chip\src\IAR\startup_MIMXRT1052.o</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\..\..\Chip\src\IAR\system_MIMXRT1052.c</name>
@@ -45,22 +44,7 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 16 17 14 18 13 20 2 21 27 22 11 5 3 24</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\NewProject.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 12</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 9 0 19 10 6 7 8 4</file>
+                    <file> 22 19 2 21 20 0 15 5 6 4 23 25 9 7</file>
                 </tool>
             </inputs>
         </file>
@@ -69,16 +53,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 19</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 15 12</file>
+                    <file> 26</file>
                 </tool>
             </outputs>
         </file>
@@ -87,17 +62,55 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 0</file>
+                    <file> 18</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 5 22 19 2 21 20 0 6 4 23 25 9 7</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\NewProject.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 1</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 8 18 26 10 24 17 11 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 16 1</file>
                 </tool>
             </outputs>
         </file>
         <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
-        </forcedrebuild>
-        <forcedrebuild>
             <name>$PROJ_DIR$\..\..\Chip\src\IAR\system_MIMXRT1052.c</name>
             <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\App\src\main.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\..\..\Chip\src\IAR\startup_MIMXRT1052.s</name>
+            <tool>AARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>

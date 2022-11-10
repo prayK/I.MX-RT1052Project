@@ -8,21 +8,33 @@
 
 "D:\IAR\arm\CONFIG\debugger\NXP\MIMXRT1052xxx6B.ddf" 
 
+"--drv_verify_download" 
+
 "--semihosting" 
 
 "--device=MIMXRT1052xxx6B" 
 
-"--drv_communication=USB0" 
+"--multicore_nr_of_cores=1" 
 
-"--drv_interface_speed=auto" 
+"--jet_probe=cmsisdap" 
 
-"--jlink_initial_speed=1000" 
+"--jet_standard_reset=2,300,200" 
 
-"--jlink_reset_strategy=0,0" 
+"--reset_style=\"0,-,0,Disabled__no_reset_\"" 
 
-"--drv_catch_exceptions=0x000" 
+"--reset_style=\"1,-,0,Software\"" 
 
-"--jlink_device_name=MIMXRT1052xxx6B" 
+"--reset_style=\"2,-,1,Hardware\"" 
+
+"--reset_style=\"3,-,0,Core\"" 
+
+"--reset_style=\"4,-,0,System\"" 
+
+"--reset_style=\"7,ResetAndStopAtUser,0,Reset_and_halt_after_bootloader\"" 
+
+"--drv_interface=SWD" 
+
+"--drv_catch_exceptions=0x800" 
 
 
 

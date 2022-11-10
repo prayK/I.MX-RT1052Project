@@ -76,7 +76,7 @@
                 </option>
                 <option>
                     <name>OCDownloadVerifyAll</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>OCProductVersion</name>
@@ -84,7 +84,7 @@
                 </option>
                 <option>
                     <name>OCDynDriverList</name>
-                    <state>JLINK_ID</state>
+                    <state>CMSISDAP_ID</state>
                 </option>
                 <option>
                     <name>OCLastSavedByProductVersion</name>
@@ -92,7 +92,7 @@
                 </option>
                 <option>
                     <name>UseFlashLoader</name>
-                    <state>0</state>
+                    <state>1</state>
                 </option>
                 <option>
                     <name>CLowLevel</name>
@@ -296,7 +296,7 @@
                 <option>
                     <name>CMSISDAPResetList</name>
                     <version>1</version>
-                    <state>10</state>
+                    <state>2</state>
                 </option>
                 <option>
                     <name>CMSISDAPHWResetDuration</name>
@@ -381,27 +381,27 @@
                 </option>
                 <option>
                     <name>CatchMMERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchNOCPERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchCHKERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchSTATERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchBUSERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchINTERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchSFERR</name>
@@ -409,7 +409,7 @@
                 </option>
                 <option>
                     <name>CatchHARDERR</name>
-                    <state>1</state>
+                    <state>0</state>
                 </option>
                 <option>
                     <name>CatchDummy</name>
@@ -437,7 +437,7 @@
                 </option>
                 <option>
                     <name>CMSISDAPSelectedCPUBehaviour</name>
-                    <state>0</state>
+                    <state></state>
                 </option>
                 <option>
                     <name>ICpuName</name>

@@ -7,7 +7,7 @@
 ;  @build:   b180921
 ; -------------------------------------------------------------------------
 ;
-; Copyright 1997-2016 Freescale Semiconductor, Inc.
+; Copyright 1997-2016 Freescale Semiconductor , Inc.
 ; Copyright 2016-2018 NXP
 ; All rights reserved.
 ;

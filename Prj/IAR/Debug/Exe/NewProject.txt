@@ -1,0 +1,1139 @@
+
+NewProject.out:     file format elf32-littlearm
+
+
+Disassembly of section A0:
+
+00000000 <__Vectors>:
+   0:	20020000 	.word	0x20020000
+   4:	0000054d 	.word	0x0000054d
+   8:	0000054b 	.word	0x0000054b
+   c:	00000597 	.word	0x00000597
+  10:	000005c3 	.word	0x000005c3
+  14:	000005cf 	.word	0x000005cf
+  18:	0000077d 	.word	0x0000077d
+
+0000001c <__vector_table_0x1c>:
+	...
+  2c:	0000077f 00000781 00000000 00000783     ................
+  3c:	00000785 00000601 00000609 00000611     ................
+  4c:	00000619 00000621 00000629 00000631     ....!...)...1...
+  5c:	00000639 00000641 00000649 00000651     9...A...I...Q...
+  6c:	00000659 00000661 00000669 00000671     Y...a...i...q...
+  7c:	00000679 00000681 00000779 00000779     y.......y...y...
+  8c:	00000779 00000689 00000691 00000699     y...............
+  9c:	000006a1 000006a9 000006b1 000006b9     ................
+  ac:	000006c1 000006c9 000006d1 000006d9     ................
+  bc:	000006e1 000006e9 000006f1 000006f9     ................
+  cc:	00000701 00000709 00000711 00000779     ............y...
+  dc:	00000779 00000779 00000779 00000779     y...y...y...y...
+  ec:	00000779 00000779 00000779 00000779     y...y...y...y...
+  fc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 10c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 11c:	00000779 00000719 00000721 00000729     y.......!...)...
+ 12c:	00000731 00000739 00000779 00000779     1...9...y...y...
+ 13c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 14c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 15c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 16c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 17c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 18c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 19c:	00000779 00000779 00000779 00000741     y...y...y...A...
+ 1ac:	00000749 00000779 00000779 00000779     I...y...y...y...
+ 1bc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 1cc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 1dc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 1ec:	00000779 00000751 00000779 00000759     y...Q...y...Y...
+ 1fc:	00000761 00000779 00000779 00000769     a...y...y...i...
+ 20c:	00000771 00000779 00000779 00000779     q...y...y...y...
+ 21c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 22c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 23c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 24c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 25c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 26c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 27c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 28c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 29c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 2ac:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 2bc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 2cc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 2dc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 2ec:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 2fc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 30c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 31c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 32c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 33c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 34c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 35c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 36c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 37c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 38c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 39c:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 3ac:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 3bc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 3cc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 3dc:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 3ec:	00000779 00000779 00000779 00000779     y...y...y...y...
+ 3fc:	ffffffff                                ....
+
+Disassembly of section P1:
+
+00000400 <SCB_EnableICache>:
+  \details Turns on I-Cache
+  */
+__STATIC_INLINE void SCB_EnableICache (void)
+{
+  #if defined (__ICACHE_PRESENT) && (__ICACHE_PRESENT == 1U)
+    __DSB();
+ 400:	f3bf 8f4f 	dsb	sy
+    __ISB();
+ 404:	f3bf 8f6f 	isb	sy
+    SCB->ICIALLU = 0UL;                     /* invalidate I-Cache */
+ 408:	2000      	movs	r0, #0
+ 40a:	4940      	ldr	r1, [pc, #256]	; (50c <??DataTable3>)
+ 40c:	6008      	str	r0, [r1, #0]
+    __DSB();
+ 40e:	f3bf 8f4f 	dsb	sy
+    __ISB();
+ 412:	f3bf 8f6f 	isb	sy
+    SCB->CCR |=  (uint32_t)SCB_CCR_IC_Msk;  /* enable I-Cache */
+ 416:	483e      	ldr	r0, [pc, #248]	; (510 <??DataTable3_1>)
+ 418:	6801      	ldr	r1, [r0, #0]
+ 41a:	f451 3100 	orrs.w	r1, r1, #131072	; 0x20000
+ 41e:	6001      	str	r1, [r0, #0]
+    __DSB();
+ 420:	f3bf 8f4f 	dsb	sy
+    __ISB();
+ 424:	f3bf 8f6f 	isb	sy
+  #endif
+}
+ 428:	4770      	bx	lr
+
+0000042a <SCB_EnableDCache>:
+/**
+  \brief   Enable D-Cache
+  \details Turns on D-Cache
+  */
+__STATIC_INLINE void SCB_EnableDCache (void)
+{
+ 42a:	b410      	push	{r4}
+  #if defined (__DCACHE_PRESENT) && (__DCACHE_PRESENT == 1U)
+    uint32_t ccsidr;
+    uint32_t sets;
+    uint32_t ways;
+
+    SCB->CSSELR = 0U; /*(0U << 1U) | 0U;*/  /* Level 1 data cache */
+ 42c:	2000      	movs	r0, #0
+ 42e:	4939      	ldr	r1, [pc, #228]	; (514 <??DataTable3_2>)
+ 430:	6008      	str	r0, [r1, #0]
+    __DSB();
+ 432:	f3bf 8f4f 	dsb	sy
+
+    ccsidr = SCB->CCSIDR;
+ 436:	4838      	ldr	r0, [pc, #224]	; (518 <??DataTable3_3>)
+ 438:	6801      	ldr	r1, [r0, #0]
+
+                                            /* invalidate D-Cache */
+    sets = (uint32_t)(CCSIDR_SETS(ccsidr));
+ 43a:	f3c1 324e 	ubfx	r2, r1, #13, #15
+
+0000043e <??SCB_EnableDCache_0>:
+    do {
+      ways = (uint32_t)(CCSIDR_WAYS(ccsidr));
+ 43e:	f3c1 03c9 	ubfx	r3, r1, #3, #10
+
+00000442 <??SCB_EnableDCache_1>:
+      do {
+        SCB->DCISW = (((sets << SCB_DCISW_SET_Pos) & SCB_DCISW_SET_Msk) |
+ 442:	f643 70e0 	movw	r0, #16352	; 0x3fe0
+ 446:	ea10 1042 	ands.w	r0, r0, r2, lsl #5
+ 44a:	ea50 7083 	orrs.w	r0, r0, r3, lsl #30
+ 44e:	4c33      	ldr	r4, [pc, #204]	; (51c <??DataTable3_4>)
+ 450:	6020      	str	r0, [r4, #0]
+                      ((ways << SCB_DCISW_WAY_Pos) & SCB_DCISW_WAY_Msk)  );
+        #if defined ( __CC_ARM )
+          __schedule_barrier();
+        #endif
+      } while (ways-- != 0U);
+ 452:	0018      	movs	r0, r3
+ 454:	1e43      	subs	r3, r0, #1
+ 456:	2800      	cmp	r0, #0
+ 458:	d1f3      	bne.n	442 <??SCB_EnableDCache_1>
+    } while(sets-- != 0U);
+ 45a:	0010      	movs	r0, r2
+ 45c:	1e42      	subs	r2, r0, #1
+ 45e:	2800      	cmp	r0, #0
+ 460:	d1ed      	bne.n	43e <??SCB_EnableDCache_0>
+    __DSB();
+ 462:	f3bf 8f4f 	dsb	sy
+
+    SCB->CCR |=  (uint32_t)SCB_CCR_DC_Msk;  /* enable D-Cache */
+ 466:	482a      	ldr	r0, [pc, #168]	; (510 <??DataTable3_1>)
+ 468:	6801      	ldr	r1, [r0, #0]
+ 46a:	f451 3180 	orrs.w	r1, r1, #65536	; 0x10000
+ 46e:	6001      	str	r1, [r0, #0]
+
+    __DSB();
+ 470:	f3bf 8f4f 	dsb	sy
+    __ISB();
+ 474:	f3bf 8f6f 	isb	sy
+  #endif
+}
+ 478:	bc10      	pop	{r4}
+ 47a:	4770      	bx	lr
+
+0000047c <SystemInit>:
+
+/* ----------------------------------------------------------------------------
+   -- SystemInit()
+   ---------------------------------------------------------------------------- */
+
+void SystemInit (void) {
+ 47c:	b510      	push	{r4, lr}
+#if ((__FPU_PRESENT == 1) && (__FPU_USED == 1))
+  SCB->CPACR |= ((3UL << 10*2) | (3UL << 11*2));    /* set CP10, CP11 Full Access */
+ 47e:	4828      	ldr	r0, [pc, #160]	; (520 <??DataTable3_5>)
+ 480:	6801      	ldr	r1, [r0, #0]
+ 482:	f451 0170 	orrs.w	r1, r1, #15728640	; 0xf00000
+ 486:	6001      	str	r1, [r0, #0]
+    extern uint32_t g_pfnVectors[];  // Vector table defined in startup code
+    SCB->VTOR = (uint32_t)g_pfnVectors;
+#endif
+
+/* Disable Watchdog Power Down Counter */
+WDOG1->WMCR &= ~WDOG_WMCR_PDE_MASK;
+ 488:	4926      	ldr	r1, [pc, #152]	; (524 <??DataTable3_6>)
+ 48a:	880a      	ldrh	r2, [r1, #0]
+ 48c:	f64f 70fe 	movw	r0, #65534	; 0xfffe
+ 490:	4002      	ands	r2, r0
+ 492:	800a      	strh	r2, [r1, #0]
+WDOG2->WMCR &= ~WDOG_WMCR_PDE_MASK;
+ 494:	4924      	ldr	r1, [pc, #144]	; (528 <??DataTable3_7>)
+ 496:	880a      	ldrh	r2, [r1, #0]
+ 498:	f64f 70fe 	movw	r0, #65534	; 0xfffe
+ 49c:	4002      	ands	r2, r0
+ 49e:	800a      	strh	r2, [r1, #0]
+
+/* Watchdog disable */
+
+#if (DISABLE_WDOG)
+    if (WDOG1->WCR & WDOG_WCR_WDE_MASK)
+ 4a0:	4922      	ldr	r1, [pc, #136]	; (52c <??DataTable3_8>)
+ 4a2:	8808      	ldrh	r0, [r1, #0]
+ 4a4:	0740      	lsls	r0, r0, #29
+ 4a6:	d504      	bpl.n	4b2 <??SystemInit_0>
+    {
+        WDOG1->WCR &= ~WDOG_WCR_WDE_MASK;
+ 4a8:	880a      	ldrh	r2, [r1, #0]
+ 4aa:	f64f 70fb 	movw	r0, #65531	; 0xfffb
+ 4ae:	4002      	ands	r2, r0
+ 4b0:	800a      	strh	r2, [r1, #0]
+
+000004b2 <??SystemInit_0>:
+    }
+    if (WDOG2->WCR & WDOG_WCR_WDE_MASK)
+ 4b2:	491f      	ldr	r1, [pc, #124]	; (530 <??DataTable3_9>)
+ 4b4:	8808      	ldrh	r0, [r1, #0]
+ 4b6:	0740      	lsls	r0, r0, #29
+ 4b8:	d504      	bpl.n	4c4 <??SystemInit_1>
+    {
+        WDOG2->WCR &= ~WDOG_WCR_WDE_MASK;
+ 4ba:	880a      	ldrh	r2, [r1, #0]
+ 4bc:	f64f 70fb 	movw	r0, #65531	; 0xfffb
+ 4c0:	4002      	ands	r2, r0
+ 4c2:	800a      	strh	r2, [r1, #0]
+
+000004c4 <??SystemInit_1>:
+    }
+    RTWDOG->CNT = 0xD928C520U; /* 0xD928C520U is the update key */
+ 4c4:	481b      	ldr	r0, [pc, #108]	; (534 <??DataTable3_10>)
+ 4c6:	491c      	ldr	r1, [pc, #112]	; (538 <??DataTable3_11>)
+ 4c8:	6008      	str	r0, [r1, #0]
+    RTWDOG->TOVAL = 0xFFFF;
+ 4ca:	f64f 70ff 	movw	r0, #65535	; 0xffff
+ 4ce:	491b      	ldr	r1, [pc, #108]	; (53c <??DataTable3_12>)
+ 4d0:	6008      	str	r0, [r1, #0]
+    RTWDOG->CS = (uint32_t) ((RTWDOG->CS) & ~RTWDOG_CS_EN_MASK) | RTWDOG_CS_UPDATE_MASK;
+ 4d2:	481b      	ldr	r0, [pc, #108]	; (540 <??DataTable3_13>)
+ 4d4:	6801      	ldr	r1, [r0, #0]
+ 4d6:	f031 0180 	bics.w	r1, r1, #128	; 0x80
+ 4da:	f051 0120 	orrs.w	r1, r1, #32
+ 4de:	6001      	str	r1, [r0, #0]
+#endif /* (DISABLE_WDOG) */
+
+    /* Disable Systick which might be enabled by bootrom */
+    if (SysTick->CTRL & SysTick_CTRL_ENABLE_Msk)
+ 4e0:	4818      	ldr	r0, [pc, #96]	; (544 <??DataTable3_14>)
+ 4e2:	6801      	ldr	r1, [r0, #0]
+ 4e4:	07c9      	lsls	r1, r1, #31
+ 4e6:	d503      	bpl.n	4f0 <??SystemInit_2>
+    {
+        SysTick->CTRL &= ~SysTick_CTRL_ENABLE_Msk;
+ 4e8:	6801      	ldr	r1, [r0, #0]
+ 4ea:	0849      	lsrs	r1, r1, #1
+ 4ec:	0049      	lsls	r1, r1, #1
+ 4ee:	6001      	str	r1, [r0, #0]
+
+000004f0 <??SystemInit_2>:
+    }
+
+/* Enable instruction and data caches */
+#if defined(__ICACHE_PRESENT) && __ICACHE_PRESENT
+    if (SCB_CCR_IC_Msk != (SCB_CCR_IC_Msk & SCB->CCR)) {
+ 4f0:	4c07      	ldr	r4, [pc, #28]	; (510 <??DataTable3_1>)
+ 4f2:	6820      	ldr	r0, [r4, #0]
+ 4f4:	0380      	lsls	r0, r0, #14
+ 4f6:	d401      	bmi.n	4fc <??SystemInit_3>
+        SCB_EnableICache();
+ 4f8:	f7ff ff82 	bl	400 <SCB_EnableICache>
+
+000004fc <??SystemInit_3>:
+    }
+#endif
+#if defined(__DCACHE_PRESENT) && __DCACHE_PRESENT
+    if (SCB_CCR_DC_Msk != (SCB_CCR_DC_Msk & SCB->CCR)) {
+ 4fc:	6820      	ldr	r0, [r4, #0]
+ 4fe:	03c0      	lsls	r0, r0, #15
+ 500:	d401      	bmi.n	506 <??SystemInit_4>
+        SCB_EnableDCache();
+ 502:	f7ff ff92 	bl	42a <SCB_EnableDCache>
+
+00000506 <??SystemInit_4>:
+    }
+#endif
+
+  SystemInitHook();
+ 506:	f000 f81f 	bl	548 <SystemInitHook>
+}
+ 50a:	bd10      	pop	{r4, pc}
+
+0000050c <??DataTable3>:
+ 50c:	ef50 e000                                   P...
+
+00000510 <??DataTable3_1>:
+ 510:	ed14 e000                                   ....
+
+00000514 <??DataTable3_2>:
+ 514:	ed84 e000                                   ....
+
+00000518 <??DataTable3_3>:
+ 518:	ed80 e000                                   ....
+
+0000051c <??DataTable3_4>:
+ 51c:	ef60 e000                                   `...
+
+00000520 <??DataTable3_5>:
+ 520:	ed88 e000                                   ....
+
+00000524 <??DataTable3_6>:
+ 524:	8008 400b                                   ...@
+
+00000528 <??DataTable3_7>:
+ 528:	0008 400d                                   ...@
+
+0000052c <??DataTable3_8>:
+ 52c:	8000 400b                                   ...@
+
+00000530 <??DataTable3_9>:
+ 530:	0000 400d                                   ...@
+
+00000534 <??DataTable3_10>:
+ 534:	c520 d928                                    .(.
+
+00000538 <??DataTable3_11>:
+ 538:	c004 400b                                   ...@
+
+0000053c <??DataTable3_12>:
+ 53c:	c008 400b                                   ...@
+
+00000540 <??DataTable3_13>:
+ 540:	c000 400b                                   ...@
+
+00000544 <??DataTable3_14>:
+ 544:	e010 e000                                   ....
+
+00000548 <SystemInitHook>:
+   -- SystemInitHook()
+   ---------------------------------------------------------------------------- */
+
+__attribute__ ((weak)) void SystemInitHook (void) {
+  /* Void implementation of the weak function. */
+}
+ 548:	4770      	bx	lr
+
+0000054a <NMI_Handler>:
+        BX      R0
+
+        PUBWEAK NMI_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+NMI_Handler
+        B .
+ 54a:	e7fe      	b.n	54a <NMI_Handler>
+
+0000054c <Reset_Handler>:
+        THUMB
+
+        PUBWEAK Reset_Handler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+Reset_Handler
+        CPSID   I               ; Mask interrupts
+ 54c:	b672      	cpsid	i
+        LDR     R0, =0xE000ED08
+ 54e:	4805      	ldr	r0, [pc, #20]	; (564 <Reset_Handler+0x18>)
+        LDR     R1, =__vector_table
+ 550:	4905      	ldr	r1, [pc, #20]	; (568 <Reset_Handler+0x1c>)
+        STR     R1, [R0]
+ 552:	6001      	str	r1, [r0, #0]
+        LDR     R2, [R1]
+ 554:	680a      	ldr	r2, [r1, #0]
+        MSR     MSP, R2
+ 556:	f382 8808 	msr	MSP, r2
+        LDR     R0, =SystemInit
+ 55a:	4804      	ldr	r0, [pc, #16]	; (56c <Reset_Handler+0x20>)
+        BLX     R0
+ 55c:	4780      	blx	r0
+        CPSIE   I               ; Unmask interrupts
+ 55e:	b662      	cpsie	i
+        LDR     R0, =__iar_program_start
+ 560:	4803      	ldr	r0, [pc, #12]	; (570 <Reset_Handler+0x24>)
+        BX      R0
+ 562:	4700      	bx	r0
+
+        PUBWEAK NMI_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+ 564:	e000ed08 	.word	0xe000ed08
+ 568:	00000000 	.word	0x00000000
+ 56c:	0000047d 	.word	0x0000047d
+ 570:	000005e5 	.word	0x000005e5
+
+00000574 <__iar_init_vfp>:
+ 574:	f64e 5188 	movw	r1, #60808	; 0xed88
+ 578:	f2ce 0100 	movt	r1, #57344	; 0xe000
+ 57c:	6808      	ldr	r0, [r1, #0]
+ 57e:	f440 0070 	orr.w	r0, r0, #15728640	; 0xf00000
+ 582:	6008      	str	r0, [r1, #0]
+ 584:	f3bf 8f4f 	dsb	sy
+ 588:	f3bf 8f6f 	isb	sy
+ 58c:	f04f 7001 	mov.w	r0, #33816576	; 0x2040000
+ 590:	eee1 0a10 	vmsr	fpscr, r0
+ 594:	4770      	bx	lr
+
+00000596 <HardFault_Handler>:
+        B .
+
+        PUBWEAK HardFault_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+HardFault_Handler
+        B .
+ 596:	e7fe      	b.n	596 <HardFault_Handler>
+
+00000598 <?main>:
+ 598:	f000 f80d 	bl	5b6 <__low_level_init>
+ 59c:	2800      	cmp	r0, #0
+ 59e:	d001      	beq.n	5a4 <_call_main>
+ 5a0:	f3af 8000 	nop.w
+
+000005a4 <_call_main>:
+ 5a4:	f3af 8000 	nop.w
+ 5a8:	2000      	movs	r0, #0
+ 5aa:	f3af 8000 	nop.w
+ 5ae:	f000 f804 	bl	5ba <main>
+ 5b2:	f000 f804 	bl	5be <exit>
+
+000005b6 <__low_level_init>:
+ 5b6:	2001      	movs	r0, #1
+ 5b8:	4770      	bx	lr
+
+000005ba <main>:
+
+
+int main(void)
+{
+    return 0;
+ 5ba:	2000      	movs	r0, #0
+ 5bc:	4770      	bx	lr
+
+000005be <exit>:
+ 5be:	f000 b801 	b.w	5c4 <_exit>
+
+000005c2 <MemManage_Handler>:
+
+        PUBWEAK MemManage_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+MemManage_Handler
+        B .
+ 5c2:	e7fe      	b.n	5c2 <MemManage_Handler>
+
+000005c4 <_exit>:
+ 5c4:	4607      	mov	r7, r0
+
+000005c6 <.text_4>:
+ 5c6:	4638      	mov	r0, r7
+ 5c8:	f000 f802 	bl	5d0 <__exit>
+ 5cc:	e7fb      	b.n	5c6 <.text_4>
+
+000005ce <BusFault_Handler>:
+
+        PUBWEAK BusFault_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+BusFault_Handler
+        B .
+ 5ce:	e7fe      	b.n	5ce <BusFault_Handler>
+
+000005d0 <__exit>:
+ 5d0:	b580      	push	{r7, lr}
+ 5d2:	f3af 8000 	nop.w
+ 5d6:	4a02      	ldr	r2, [pc, #8]	; (5e0 <??__exit_1>)
+
+000005d8 <??__exit_0>:
+ 5d8:	0011      	movs	r1, r2
+ 5da:	2018      	movs	r0, #24
+ 5dc:	beab      	bkpt	0x00ab
+ 5de:	e7fb      	b.n	5d8 <??__exit_0>
+
+000005e0 <??__exit_1>:
+ 5e0:	0026 0002                                   &...
+
+000005e4 <__iar_program_start>:
+ 5e4:	4805      	ldr	r0, [pc, #20]	; (5fc <__iar_program_start+0x18>)
+ 5e6:	4601      	mov	r1, r0
+ 5e8:	b403      	push	{r0, r1}
+ 5ea:	4668      	mov	r0, sp
+ 5ec:	f380 8809 	msr	PSP, r0
+ 5f0:	f3af 8000 	nop.w
+ 5f4:	f7ff ffbe 	bl	574 <__iar_init_vfp>
+ 5f8:	f7ff ffce 	bl	598 <?main>
+ 5fc:	fef5eda5 	.word	0xfef5eda5
+
+00000600 <DMA0_DMA16_IRQHandler>:
+
+        PUBWEAK DMA0_DMA16_IRQHandler
+        PUBWEAK DMA0_DMA16_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+DMA0_DMA16_IRQHandler
+        LDR     R0, =DMA0_DMA16_DriverIRQHandler
+ 600:	4800      	ldr	r0, [pc, #0]	; (604 <DMA0_DMA16_IRQHandler+0x4>)
+        BX      R0
+ 602:	4700      	bx	r0
+
+        PUBWEAK DMA1_DMA17_IRQHandler
+        PUBWEAK DMA1_DMA17_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 604:	00000779 	.word	0x00000779
+
+00000608 <DMA1_DMA17_IRQHandler>:
+DMA1_DMA17_IRQHandler
+        LDR     R0, =DMA1_DMA17_DriverIRQHandler
+ 608:	4800      	ldr	r0, [pc, #0]	; (60c <DMA1_DMA17_IRQHandler+0x4>)
+        BX      R0
+ 60a:	4700      	bx	r0
+
+        PUBWEAK DMA2_DMA18_IRQHandler
+        PUBWEAK DMA2_DMA18_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 60c:	00000779 	.word	0x00000779
+
+00000610 <DMA2_DMA18_IRQHandler>:
+DMA2_DMA18_IRQHandler
+        LDR     R0, =DMA2_DMA18_DriverIRQHandler
+ 610:	4800      	ldr	r0, [pc, #0]	; (614 <DMA2_DMA18_IRQHandler+0x4>)
+        BX      R0
+ 612:	4700      	bx	r0
+
+        PUBWEAK DMA3_DMA19_IRQHandler
+        PUBWEAK DMA3_DMA19_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 614:	00000779 	.word	0x00000779
+
+00000618 <DMA3_DMA19_IRQHandler>:
+DMA3_DMA19_IRQHandler
+        LDR     R0, =DMA3_DMA19_DriverIRQHandler
+ 618:	4800      	ldr	r0, [pc, #0]	; (61c <DMA3_DMA19_IRQHandler+0x4>)
+        BX      R0
+ 61a:	4700      	bx	r0
+
+        PUBWEAK DMA4_DMA20_IRQHandler
+        PUBWEAK DMA4_DMA20_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 61c:	00000779 	.word	0x00000779
+
+00000620 <DMA4_DMA20_IRQHandler>:
+DMA4_DMA20_IRQHandler
+        LDR     R0, =DMA4_DMA20_DriverIRQHandler
+ 620:	4800      	ldr	r0, [pc, #0]	; (624 <DMA4_DMA20_IRQHandler+0x4>)
+        BX      R0
+ 622:	4700      	bx	r0
+
+        PUBWEAK DMA5_DMA21_IRQHandler
+        PUBWEAK DMA5_DMA21_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 624:	00000779 	.word	0x00000779
+
+00000628 <DMA5_DMA21_IRQHandler>:
+DMA5_DMA21_IRQHandler
+        LDR     R0, =DMA5_DMA21_DriverIRQHandler
+ 628:	4800      	ldr	r0, [pc, #0]	; (62c <DMA5_DMA21_IRQHandler+0x4>)
+        BX      R0
+ 62a:	4700      	bx	r0
+
+        PUBWEAK DMA6_DMA22_IRQHandler
+        PUBWEAK DMA6_DMA22_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 62c:	00000779 	.word	0x00000779
+
+00000630 <DMA6_DMA22_IRQHandler>:
+DMA6_DMA22_IRQHandler
+        LDR     R0, =DMA6_DMA22_DriverIRQHandler
+ 630:	4800      	ldr	r0, [pc, #0]	; (634 <DMA6_DMA22_IRQHandler+0x4>)
+        BX      R0
+ 632:	4700      	bx	r0
+
+        PUBWEAK DMA7_DMA23_IRQHandler
+        PUBWEAK DMA7_DMA23_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 634:	00000779 	.word	0x00000779
+
+00000638 <DMA7_DMA23_IRQHandler>:
+DMA7_DMA23_IRQHandler
+        LDR     R0, =DMA7_DMA23_DriverIRQHandler
+ 638:	4800      	ldr	r0, [pc, #0]	; (63c <DMA7_DMA23_IRQHandler+0x4>)
+        BX      R0
+ 63a:	4700      	bx	r0
+
+        PUBWEAK DMA8_DMA24_IRQHandler
+        PUBWEAK DMA8_DMA24_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 63c:	00000779 	.word	0x00000779
+
+00000640 <DMA8_DMA24_IRQHandler>:
+DMA8_DMA24_IRQHandler
+        LDR     R0, =DMA8_DMA24_DriverIRQHandler
+ 640:	4800      	ldr	r0, [pc, #0]	; (644 <DMA8_DMA24_IRQHandler+0x4>)
+        BX      R0
+ 642:	4700      	bx	r0
+
+        PUBWEAK DMA9_DMA25_IRQHandler
+        PUBWEAK DMA9_DMA25_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 644:	00000779 	.word	0x00000779
+
+00000648 <DMA9_DMA25_IRQHandler>:
+DMA9_DMA25_IRQHandler
+        LDR     R0, =DMA9_DMA25_DriverIRQHandler
+ 648:	4800      	ldr	r0, [pc, #0]	; (64c <DMA9_DMA25_IRQHandler+0x4>)
+        BX      R0
+ 64a:	4700      	bx	r0
+
+        PUBWEAK DMA10_DMA26_IRQHandler
+        PUBWEAK DMA10_DMA26_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 64c:	00000779 	.word	0x00000779
+
+00000650 <DMA10_DMA26_IRQHandler>:
+DMA10_DMA26_IRQHandler
+        LDR     R0, =DMA10_DMA26_DriverIRQHandler
+ 650:	4800      	ldr	r0, [pc, #0]	; (654 <DMA10_DMA26_IRQHandler+0x4>)
+        BX      R0
+ 652:	4700      	bx	r0
+
+        PUBWEAK DMA11_DMA27_IRQHandler
+        PUBWEAK DMA11_DMA27_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 654:	00000779 	.word	0x00000779
+
+00000658 <DMA11_DMA27_IRQHandler>:
+DMA11_DMA27_IRQHandler
+        LDR     R0, =DMA11_DMA27_DriverIRQHandler
+ 658:	4800      	ldr	r0, [pc, #0]	; (65c <DMA11_DMA27_IRQHandler+0x4>)
+        BX      R0
+ 65a:	4700      	bx	r0
+
+        PUBWEAK DMA12_DMA28_IRQHandler
+        PUBWEAK DMA12_DMA28_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 65c:	00000779 	.word	0x00000779
+
+00000660 <DMA12_DMA28_IRQHandler>:
+DMA12_DMA28_IRQHandler
+        LDR     R0, =DMA12_DMA28_DriverIRQHandler
+ 660:	4800      	ldr	r0, [pc, #0]	; (664 <DMA12_DMA28_IRQHandler+0x4>)
+        BX      R0
+ 662:	4700      	bx	r0
+
+        PUBWEAK DMA13_DMA29_IRQHandler
+        PUBWEAK DMA13_DMA29_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 664:	00000779 	.word	0x00000779
+
+00000668 <DMA13_DMA29_IRQHandler>:
+DMA13_DMA29_IRQHandler
+        LDR     R0, =DMA13_DMA29_DriverIRQHandler
+ 668:	4800      	ldr	r0, [pc, #0]	; (66c <DMA13_DMA29_IRQHandler+0x4>)
+        BX      R0
+ 66a:	4700      	bx	r0
+
+        PUBWEAK DMA14_DMA30_IRQHandler
+        PUBWEAK DMA14_DMA30_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 66c:	00000779 	.word	0x00000779
+
+00000670 <DMA14_DMA30_IRQHandler>:
+DMA14_DMA30_IRQHandler
+        LDR     R0, =DMA14_DMA30_DriverIRQHandler
+ 670:	4800      	ldr	r0, [pc, #0]	; (674 <DMA14_DMA30_IRQHandler+0x4>)
+        BX      R0
+ 672:	4700      	bx	r0
+
+        PUBWEAK DMA15_DMA31_IRQHandler
+        PUBWEAK DMA15_DMA31_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 674:	00000779 	.word	0x00000779
+
+00000678 <DMA15_DMA31_IRQHandler>:
+DMA15_DMA31_IRQHandler
+        LDR     R0, =DMA15_DMA31_DriverIRQHandler
+ 678:	4800      	ldr	r0, [pc, #0]	; (67c <DMA15_DMA31_IRQHandler+0x4>)
+        BX      R0
+ 67a:	4700      	bx	r0
+
+        PUBWEAK DMA_ERROR_IRQHandler
+        PUBWEAK DMA_ERROR_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 67c:	00000779 	.word	0x00000779
+
+00000680 <DMA_ERROR_IRQHandler>:
+DMA_ERROR_IRQHandler
+        LDR     R0, =DMA_ERROR_DriverIRQHandler
+ 680:	4800      	ldr	r0, [pc, #0]	; (684 <DMA_ERROR_IRQHandler+0x4>)
+        BX      R0
+ 682:	4700      	bx	r0
+        PUBWEAK CTI0_ERROR_IRQHandler
+        PUBWEAK CTI1_ERROR_IRQHandler
+        PUBWEAK CORE_IRQHandler
+        PUBWEAK LPUART1_IRQHandler
+        PUBWEAK LPUART1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 684:	00000779 	.word	0x00000779
+
+00000688 <LPUART1_IRQHandler>:
+LPUART1_IRQHandler
+        LDR     R0, =LPUART1_DriverIRQHandler
+ 688:	4800      	ldr	r0, [pc, #0]	; (68c <LPUART1_IRQHandler+0x4>)
+        BX      R0
+ 68a:	4700      	bx	r0
+
+        PUBWEAK LPUART2_IRQHandler
+        PUBWEAK LPUART2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 68c:	00000779 	.word	0x00000779
+
+00000690 <LPUART2_IRQHandler>:
+LPUART2_IRQHandler
+        LDR     R0, =LPUART2_DriverIRQHandler
+ 690:	4800      	ldr	r0, [pc, #0]	; (694 <LPUART2_IRQHandler+0x4>)
+        BX      R0
+ 692:	4700      	bx	r0
+
+        PUBWEAK LPUART3_IRQHandler
+        PUBWEAK LPUART3_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 694:	00000779 	.word	0x00000779
+
+00000698 <LPUART3_IRQHandler>:
+LPUART3_IRQHandler
+        LDR     R0, =LPUART3_DriverIRQHandler
+ 698:	4800      	ldr	r0, [pc, #0]	; (69c <LPUART3_IRQHandler+0x4>)
+        BX      R0
+ 69a:	4700      	bx	r0
+
+        PUBWEAK LPUART4_IRQHandler
+        PUBWEAK LPUART4_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 69c:	00000779 	.word	0x00000779
+
+000006a0 <LPUART4_IRQHandler>:
+LPUART4_IRQHandler
+        LDR     R0, =LPUART4_DriverIRQHandler
+ 6a0:	4800      	ldr	r0, [pc, #0]	; (6a4 <LPUART4_IRQHandler+0x4>)
+        BX      R0
+ 6a2:	4700      	bx	r0
+
+        PUBWEAK LPUART5_IRQHandler
+        PUBWEAK LPUART5_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6a4:	00000779 	.word	0x00000779
+
+000006a8 <LPUART5_IRQHandler>:
+LPUART5_IRQHandler
+        LDR     R0, =LPUART5_DriverIRQHandler
+ 6a8:	4800      	ldr	r0, [pc, #0]	; (6ac <LPUART5_IRQHandler+0x4>)
+        BX      R0
+ 6aa:	4700      	bx	r0
+
+        PUBWEAK LPUART6_IRQHandler
+        PUBWEAK LPUART6_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6ac:	00000779 	.word	0x00000779
+
+000006b0 <LPUART6_IRQHandler>:
+LPUART6_IRQHandler
+        LDR     R0, =LPUART6_DriverIRQHandler
+ 6b0:	4800      	ldr	r0, [pc, #0]	; (6b4 <LPUART6_IRQHandler+0x4>)
+        BX      R0
+ 6b2:	4700      	bx	r0
+
+        PUBWEAK LPUART7_IRQHandler
+        PUBWEAK LPUART7_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6b4:	00000779 	.word	0x00000779
+
+000006b8 <LPUART7_IRQHandler>:
+LPUART7_IRQHandler
+        LDR     R0, =LPUART7_DriverIRQHandler
+ 6b8:	4800      	ldr	r0, [pc, #0]	; (6bc <LPUART7_IRQHandler+0x4>)
+        BX      R0
+ 6ba:	4700      	bx	r0
+
+        PUBWEAK LPUART8_IRQHandler
+        PUBWEAK LPUART8_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6bc:	00000779 	.word	0x00000779
+
+000006c0 <LPUART8_IRQHandler>:
+LPUART8_IRQHandler
+        LDR     R0, =LPUART8_DriverIRQHandler
+ 6c0:	4800      	ldr	r0, [pc, #0]	; (6c4 <LPUART8_IRQHandler+0x4>)
+        BX      R0
+ 6c2:	4700      	bx	r0
+
+        PUBWEAK LPI2C1_IRQHandler
+        PUBWEAK LPI2C1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6c4:	00000779 	.word	0x00000779
+
+000006c8 <LPI2C1_IRQHandler>:
+LPI2C1_IRQHandler
+        LDR     R0, =LPI2C1_DriverIRQHandler
+ 6c8:	4800      	ldr	r0, [pc, #0]	; (6cc <LPI2C1_IRQHandler+0x4>)
+        BX      R0
+ 6ca:	4700      	bx	r0
+
+        PUBWEAK LPI2C2_IRQHandler
+        PUBWEAK LPI2C2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6cc:	00000779 	.word	0x00000779
+
+000006d0 <LPI2C2_IRQHandler>:
+LPI2C2_IRQHandler
+        LDR     R0, =LPI2C2_DriverIRQHandler
+ 6d0:	4800      	ldr	r0, [pc, #0]	; (6d4 <LPI2C2_IRQHandler+0x4>)
+        BX      R0
+ 6d2:	4700      	bx	r0
+
+        PUBWEAK LPI2C3_IRQHandler
+        PUBWEAK LPI2C3_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6d4:	00000779 	.word	0x00000779
+
+000006d8 <LPI2C3_IRQHandler>:
+LPI2C3_IRQHandler
+        LDR     R0, =LPI2C3_DriverIRQHandler
+ 6d8:	4800      	ldr	r0, [pc, #0]	; (6dc <LPI2C3_IRQHandler+0x4>)
+        BX      R0
+ 6da:	4700      	bx	r0
+
+        PUBWEAK LPI2C4_IRQHandler
+        PUBWEAK LPI2C4_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6dc:	00000779 	.word	0x00000779
+
+000006e0 <LPI2C4_IRQHandler>:
+LPI2C4_IRQHandler
+        LDR     R0, =LPI2C4_DriverIRQHandler
+ 6e0:	4800      	ldr	r0, [pc, #0]	; (6e4 <LPI2C4_IRQHandler+0x4>)
+        BX      R0
+ 6e2:	4700      	bx	r0
+
+        PUBWEAK LPSPI1_IRQHandler
+        PUBWEAK LPSPI1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6e4:	00000779 	.word	0x00000779
+
+000006e8 <LPSPI1_IRQHandler>:
+LPSPI1_IRQHandler
+        LDR     R0, =LPSPI1_DriverIRQHandler
+ 6e8:	4800      	ldr	r0, [pc, #0]	; (6ec <LPSPI1_IRQHandler+0x4>)
+        BX      R0
+ 6ea:	4700      	bx	r0
+
+        PUBWEAK LPSPI2_IRQHandler
+        PUBWEAK LPSPI2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6ec:	00000779 	.word	0x00000779
+
+000006f0 <LPSPI2_IRQHandler>:
+LPSPI2_IRQHandler
+        LDR     R0, =LPSPI2_DriverIRQHandler
+ 6f0:	4800      	ldr	r0, [pc, #0]	; (6f4 <LPSPI2_IRQHandler+0x4>)
+        BX      R0
+ 6f2:	4700      	bx	r0
+
+        PUBWEAK LPSPI3_IRQHandler
+        PUBWEAK LPSPI3_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6f4:	00000779 	.word	0x00000779
+
+000006f8 <LPSPI3_IRQHandler>:
+LPSPI3_IRQHandler
+        LDR     R0, =LPSPI3_DriverIRQHandler
+ 6f8:	4800      	ldr	r0, [pc, #0]	; (6fc <LPSPI3_IRQHandler+0x4>)
+        BX      R0
+ 6fa:	4700      	bx	r0
+
+        PUBWEAK LPSPI4_IRQHandler
+        PUBWEAK LPSPI4_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 6fc:	00000779 	.word	0x00000779
+
+00000700 <LPSPI4_IRQHandler>:
+LPSPI4_IRQHandler
+        LDR     R0, =LPSPI4_DriverIRQHandler
+ 700:	4800      	ldr	r0, [pc, #0]	; (704 <LPSPI4_IRQHandler+0x4>)
+        BX      R0
+ 702:	4700      	bx	r0
+
+        PUBWEAK CAN1_IRQHandler
+        PUBWEAK CAN1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 704:	00000779 	.word	0x00000779
+
+00000708 <CAN1_IRQHandler>:
+CAN1_IRQHandler
+        LDR     R0, =CAN1_DriverIRQHandler
+ 708:	4800      	ldr	r0, [pc, #0]	; (70c <CAN1_IRQHandler+0x4>)
+        BX      R0
+ 70a:	4700      	bx	r0
+
+        PUBWEAK CAN2_IRQHandler
+        PUBWEAK CAN2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 70c:	00000779 	.word	0x00000779
+
+00000710 <CAN2_IRQHandler>:
+CAN2_IRQHandler
+        LDR     R0, =CAN2_DriverIRQHandler
+ 710:	4800      	ldr	r0, [pc, #0]	; (714 <CAN2_IRQHandler+0x4>)
+        BX      R0
+ 712:	4700      	bx	r0
+        PUBWEAK TRNG_IRQHandler
+        PUBWEAK SJC_IRQHandler
+        PUBWEAK BEE_IRQHandler
+        PUBWEAK SAI1_IRQHandler
+        PUBWEAK SAI1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 714:	00000779 	.word	0x00000779
+
+00000718 <SAI1_IRQHandler>:
+SAI1_IRQHandler
+        LDR     R0, =SAI1_DriverIRQHandler
+ 718:	4800      	ldr	r0, [pc, #0]	; (71c <SAI1_IRQHandler+0x4>)
+        BX      R0
+ 71a:	4700      	bx	r0
+
+        PUBWEAK SAI2_IRQHandler
+        PUBWEAK SAI2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 71c:	00000779 	.word	0x00000779
+
+00000720 <SAI2_IRQHandler>:
+SAI2_IRQHandler
+        LDR     R0, =SAI2_DriverIRQHandler
+ 720:	4800      	ldr	r0, [pc, #0]	; (724 <SAI2_IRQHandler+0x4>)
+        BX      R0
+ 722:	4700      	bx	r0
+
+        PUBWEAK SAI3_RX_IRQHandler
+        PUBWEAK SAI3_RX_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 724:	00000779 	.word	0x00000779
+
+00000728 <SAI3_RX_IRQHandler>:
+SAI3_RX_IRQHandler
+        LDR     R0, =SAI3_RX_DriverIRQHandler
+ 728:	4800      	ldr	r0, [pc, #0]	; (72c <SAI3_RX_IRQHandler+0x4>)
+        BX      R0
+ 72a:	4700      	bx	r0
+
+        PUBWEAK SAI3_TX_IRQHandler
+        PUBWEAK SAI3_TX_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 72c:	00000779 	.word	0x00000779
+
+00000730 <SAI3_TX_IRQHandler>:
+SAI3_TX_IRQHandler
+        LDR     R0, =SAI3_TX_DriverIRQHandler
+ 730:	4800      	ldr	r0, [pc, #0]	; (734 <SAI3_TX_IRQHandler+0x4>)
+        BX      R0
+ 732:	4700      	bx	r0
+
+        PUBWEAK SPDIF_IRQHandler
+        PUBWEAK SPDIF_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 734:	00000779 	.word	0x00000779
+
+00000738 <SPDIF_IRQHandler>:
+SPDIF_IRQHandler
+        LDR     R0, =SPDIF_DriverIRQHandler
+ 738:	4800      	ldr	r0, [pc, #0]	; (73c <SPDIF_IRQHandler+0x4>)
+        BX      R0
+ 73a:	4700      	bx	r0
+        PUBWEAK GPIO4_Combined_16_31_IRQHandler
+        PUBWEAK GPIO5_Combined_0_15_IRQHandler
+        PUBWEAK GPIO5_Combined_16_31_IRQHandler
+        PUBWEAK FLEXIO1_IRQHandler
+        PUBWEAK FLEXIO1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 73c:	00000779 	.word	0x00000779
+
+00000740 <FLEXIO1_IRQHandler>:
+FLEXIO1_IRQHandler
+        LDR     R0, =FLEXIO1_DriverIRQHandler
+ 740:	4800      	ldr	r0, [pc, #0]	; (744 <FLEXIO1_IRQHandler+0x4>)
+        BX      R0
+ 742:	4700      	bx	r0
+
+        PUBWEAK FLEXIO2_IRQHandler
+        PUBWEAK FLEXIO2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 744:	00000779 	.word	0x00000779
+
+00000748 <FLEXIO2_IRQHandler>:
+FLEXIO2_IRQHandler
+        LDR     R0, =FLEXIO2_DriverIRQHandler
+ 748:	4800      	ldr	r0, [pc, #0]	; (74c <FLEXIO2_IRQHandler+0x4>)
+        BX      R0
+ 74a:	4700      	bx	r0
+        PUBWEAK PWM1_3_IRQHandler
+        PUBWEAK PWM1_FAULT_IRQHandler
+        PUBWEAK Reserved123_IRQHandler
+        PUBWEAK FLEXSPI_IRQHandler
+        PUBWEAK FLEXSPI_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 74c:	00000779 	.word	0x00000779
+
+00000750 <FLEXSPI_IRQHandler>:
+FLEXSPI_IRQHandler
+        LDR     R0, =FLEXSPI_DriverIRQHandler
+ 750:	4800      	ldr	r0, [pc, #0]	; (754 <FLEXSPI_IRQHandler+0x4>)
+        BX      R0
+ 752:	4700      	bx	r0
+
+        PUBWEAK SEMC_IRQHandler
+        PUBWEAK USDHC1_IRQHandler
+        PUBWEAK USDHC1_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 754:	00000779 	.word	0x00000779
+
+00000758 <USDHC1_IRQHandler>:
+USDHC1_IRQHandler
+        LDR     R0, =USDHC1_DriverIRQHandler
+ 758:	4800      	ldr	r0, [pc, #0]	; (75c <USDHC1_IRQHandler+0x4>)
+        BX      R0
+ 75a:	4700      	bx	r0
+
+        PUBWEAK USDHC2_IRQHandler
+        PUBWEAK USDHC2_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 75c:	00000779 	.word	0x00000779
+
+00000760 <USDHC2_IRQHandler>:
+USDHC2_IRQHandler
+        LDR     R0, =USDHC2_DriverIRQHandler
+ 760:	4800      	ldr	r0, [pc, #0]	; (764 <USDHC2_IRQHandler+0x4>)
+        BX      R0
+ 762:	4700      	bx	r0
+
+        PUBWEAK USB_OTG2_IRQHandler
+        PUBWEAK USB_OTG1_IRQHandler
+        PUBWEAK ENET_IRQHandler
+        PUBWEAK ENET_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 764:	00000779 	.word	0x00000779
+
+00000768 <ENET_IRQHandler>:
+ENET_IRQHandler
+        LDR     R0, =ENET_DriverIRQHandler
+ 768:	4800      	ldr	r0, [pc, #0]	; (76c <ENET_IRQHandler+0x4>)
+        BX      R0
+ 76a:	4700      	bx	r0
+
+        PUBWEAK ENET_1588_Timer_IRQHandler
+        PUBWEAK ENET_1588_Timer_DriverIRQHandler
+        SECTION .text:CODE:REORDER:NOROOT(2)
+ 76c:	00000779 	.word	0x00000779
+
+00000770 <ENET_1588_Timer_IRQHandler>:
+ENET_1588_Timer_IRQHandler
+        LDR     R0, =ENET_1588_Timer_DriverIRQHandler
+ 770:	4800      	ldr	r0, [pc, #0]	; (774 <ENET_1588_Timer_IRQHandler+0x4>)
+        BX      R0
+ 772:	4700      	bx	r0
+        PUBWEAK PWM4_1_IRQHandler
+        PUBWEAK PWM4_2_IRQHandler
+        PUBWEAK PWM4_3_IRQHandler
+        PUBWEAK PWM4_FAULT_IRQHandler
+        PUBWEAK DefaultISR
+        SECTION .text:CODE:REORDER:NOROOT(1)
+ 774:	00000779 	.word	0x00000779
+
+00000778 <ACMP1_IRQHandler>:
+PWM4_1_IRQHandler
+PWM4_2_IRQHandler
+PWM4_3_IRQHandler
+PWM4_FAULT_IRQHandler
+DefaultISR
+        B DefaultISR
+ 778:	f7ff bffe 	b.w	778 <ACMP1_IRQHandler>
+
+0000077c <UsageFault_Handler>:
+        B .
+
+        PUBWEAK UsageFault_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+UsageFault_Handler
+        B .
+ 77c:	e7fe      	b.n	77c <UsageFault_Handler>
+
+0000077e <SVC_Handler>:
+
+        PUBWEAK SVC_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+SVC_Handler
+        B .
+ 77e:	e7fe      	b.n	77e <SVC_Handler>
+
+00000780 <DebugMon_Handler>:
+
+        PUBWEAK DebugMon_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+DebugMon_Handler
+        B .
+ 780:	e7fe      	b.n	780 <DebugMon_Handler>
+
+00000782 <PendSV_Handler>:
+
+        PUBWEAK PendSV_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+PendSV_Handler
+        B .
+ 782:	e7fe      	b.n	782 <PendSV_Handler>
+
+00000784 <SysTick_Handler>:
+
+        PUBWEAK SysTick_Handler
+        SECTION .text:CODE:REORDER:NOROOT(1)
+SysTick_Handler
+        B .
+ 784:	e7fe      	b.n	784 <SysTick_Handler>
