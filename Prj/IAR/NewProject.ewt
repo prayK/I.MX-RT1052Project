@@ -2849,6 +2849,9 @@
         <name>App</name>
         <group>
             <name>inc</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\App\inc\main.h</name>
+            </file>
         </group>
         <group>
             <name>src</name>
@@ -2861,15 +2864,36 @@
         <name>Board</name>
         <group>
             <name>inc</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\Board\inc\gpt.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\Board\inc\led.h</name>
+            </file>
         </group>
         <group>
             <name>src</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\Board\src\gpt.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\Board\src\led.c</name>
+            </file>
         </group>
     </group>
     <group>
         <name>Chip</name>
         <group>
             <name>inc</name>
+            <group>
+                <name>common</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\Chip\inc\common\fsl_common.h</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\..\Chip\inc\common\fsl_common_arm.h</name>
+                </file>
+            </group>
             <group>
                 <name>IAR</name>
                 <file>
@@ -2879,12 +2903,33 @@
             <group>
                 <name>RT1052</name>
                 <file>
+                    <name>$PROJ_DIR$\..\..\Chip\inc\RT1052\fsl_device_registers.h</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\..\..\Chip\inc\RT1052\MIMXRT1052.h</name>
                 </file>
+                <file>
+                    <name>$PROJ_DIR$\..\..\Chip\inc\RT1052\MIMXRT1052_features.h</name>
+                </file>
             </group>
+            <file>
+                <name>$PROJ_DIR$\..\..\Chip\inc\fsl_clock.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\Chip\inc\fsl_gpt.h</name>
+            </file>
         </group>
         <group>
             <name>src</name>
+            <group>
+                <name>common</name>
+                <file>
+                    <name>$PROJ_DIR$\..\..\Chip\src\common\fsl_common.c</name>
+                </file>
+                <file>
+                    <name>$PROJ_DIR$\..\..\Chip\src\common\fsl_common_arm.c</name>
+                </file>
+            </group>
             <group>
                 <name>IAR</name>
                 <file>
@@ -2894,6 +2939,12 @@
                     <name>$PROJ_DIR$\..\..\Chip\src\IAR\system_MIMXRT1052.c</name>
                 </file>
             </group>
+            <file>
+                <name>$PROJ_DIR$\..\..\Chip\src\fsl_clock.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\Chip\src\fsl_gpt.c</name>
+            </file>
         </group>
     </group>
     <group>
@@ -2907,5 +2958,20 @@
         <file>
             <name>$PROJ_DIR$\..\..\CMSIS\core_cm7.h</name>
         </file>
+    </group>
+    <group>
+        <name>utilities</name>
+        <group>
+            <name>debug_console</name>
+            <file>
+                <name>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console.h</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\..\utilities\debug_console\fsl_debug_console_conf.h</name>
+            </file>
+        </group>
     </group>
 </project>

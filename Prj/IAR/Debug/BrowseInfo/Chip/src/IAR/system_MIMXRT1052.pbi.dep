@@ -3,11 +3,11 @@ E:\Code\MCU\RT1052NewProject\Prj\IAR\Debug\BrowseInfo\Chip\src\IAR\system_MIMXRT
   D:\IAR\arm\inc\c\stdint.h D:\IAR\arm\inc\c\ycheck.h \
   D:\IAR\arm\inc\c\yvals.h D:\IAR\arm\inc\c\DLib_Defaults.h \
   D:\IAR\arm\inc\c\DLib_Config_Normal.h D:\IAR\arm\inc\c\DLib_Product.h \
-  E:\Code\MCU\RT1052NewProject\Chip\inc\RT1052\MIMXRT1052.h \
-  E:\Code\MCU\RT1052NewProject\CMSIS\core_cm7.h \
-  E:\Code\MCU\RT1052NewProject\CMSIS\cmsis_version.h \
-  E:\Code\MCU\RT1052NewProject\CMSIS\cmsis_compiler.h \
-  E:\Code\MCU\RT1052NewProject\CMSIS\cmsis_iccarm.h \
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\..\RT1052NewProject\Chip\inc\RT1052\MIMXRT1052.h \
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\CMSIS\core_cm7.h \
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\CMSIS\cmsis_version.h \
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\CMSIS\cmsis_compiler.h \
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\CMSIS\cmsis_iccarm.h \
   D:\IAR\arm\inc\c\aarch32\iccarm_builtin.h \
-  E:\Code\MCU\RT1052NewProject\CMSIS\mpu_armv7.h \
-  E:\Code\MCU\RT1052NewProject\Chip\inc\IAR\system_MIMXRT1052.h
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\CMSIS\mpu_armv7.h \
+  E:\Code\MCU\RT1052NewProject\Prj\IAR\..\..\..\RT1052NewProject\Chip\inc\IAR\system_MIMXRT1052.h

@@ -56,7 +56,7 @@
         <CStepIntDis>_ 0</CStepIntDis>
     </JLinkDriver>
     <DebugChecksum>
-        <Checksum>3078070566</Checksum>
+        <Checksum>1427073620</Checksum>
     </DebugChecksum>
     <Jet>
         <JetConnSerialNo>CMSIS-DAP:0227000047784e45001c9003d9170006e561000097969900</JetConnSerialNo>
